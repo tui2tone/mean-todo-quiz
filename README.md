@@ -17,7 +17,7 @@ DELETE		/todos		# Delete
 
 - Styling webapp similar this design
 
-![http://tui2tone.github.io/mean-todo-quiz/todowebapp.gif](design)
+![http://tui2tone.github.io/mean-todo-quiz/todowebapp.gif](http://tui2tone.github.io/mean-todo-quiz/todowebapp.gif)
 
 ### CANNOT
 * You CANNOT use any css framework. 
