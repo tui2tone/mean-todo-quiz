@@ -5,19 +5,27 @@
 - Webapp have 2 pages
 	- Todo ( Main App )
 	- Setting ( Simple static page )
-- Connect API
-
-```
-API Info
-http://45.32.114.176:4600/
-GET			/todos		# Get
-POST		/todos		# Add
-DELETE		/todos		# Delete
-```
-
 - Styling webapp similar this design
 
 ![http://tui2tone.github.io/mean-todo-quiz/todowebapp.gif](http://tui2tone.github.io/mean-todo-quiz/todowebapp.gif)
+- You **CANNOT** use any css framework.
 
-### CANNOT
-* You CANNOT use any css framework. 
+## API Spec
+
+```
+API Info
+http://45.32.114.176:4600
+GET			/todos		# Get all todos list
+POST		/todos		# Add new todo
+DELETE		/todos/:id	# Delete a todo by id
+```
+
+#### POST /todos
+
+Body params:
+
+```json
+{
+  "todo": "some string"
+}
+```
